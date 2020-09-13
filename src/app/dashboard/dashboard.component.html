@@ -1,0 +1,24 @@
+<div [hidden]="!IsmodelShow" class="modal show" id="myModal" aria-modal="true" role="dialog" style="display: block; padding-left: 17px;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Successfully login!</h4>
+        <button type="button" class="close" (click)="closeModal()">×</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <p>Hello Clarion</p>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="closeModal()">Go To Product List</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+

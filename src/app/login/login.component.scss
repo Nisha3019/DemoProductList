@@ -1,0 +1,32 @@
+.wrapper {
+  background: linear-gradient(to bottom, #021B79, #0575E6, #205E9B);
+  height: 990px;
+}
+
+.bmd-label {
+  font-weight: 500;
+  color: #005f87;
+}
+
+.fontIcons {
+  position: relative;
+}
+
+.fontIcons i {
+  position: absolute;
+  top: 11px;
+  color: black;
+  right: 7px;
+}
+
+.alert-danger {
+  border-color: #e61818;
+  padding: 7px;
+}
+
+.btn-login {
+  background-color: #1976D2;
+  border-color: #1976D2;
+  color: white;
+  font-weight: bold;
+}
