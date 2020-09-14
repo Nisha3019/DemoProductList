@@ -1,29 +1,45 @@
-.deleteLink{
-    cursor: pointer;
-    color: #ff0000;
-    font-size:20px;
+.deleteLink {
+  cursor: pointer;
+  color: #bd2130;
+  font-size: 20px;
 }
-.addLink{
-    cursor: pointer;
-    color: #ffffff;
-    font-size:20px;
+
+.addLink {
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
 }
-.label{
-    margin-top: 1rem;
-    font-weight: 500;
-    color: #005f87;
+
+.label {
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #005f87;
 }
-.modal-title{
-    color: #ffffff;;
+
+.modal-title {
+  color: #ffffff;
 }
-.modal-header{
-    background-color: #005f87;
+
+.modal-header {
+  background-color: #005f87;
 }
-thead{
-    background-color: #005f87;
-    color: #ffffff;
+
+thead {
+  background-color: #005f87;
+  color: #ffffff;
 }
-.listTitle{
-    text-align: center;
-    color:#005f87;
+
+i.fa.fa-bars {
+  margin: 15px 10px 0 0;
+  font-size: 22px;
+}
+
+span.list-heading {
+  margin: 5px;
+  font-size: 24px;
+  position: absolute;
+}
+
+table{
+    cursor:pointer;
 }

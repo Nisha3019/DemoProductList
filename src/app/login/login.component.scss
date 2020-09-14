@@ -1,11 +1,21 @@
 .wrapper {
-  background: linear-gradient(to bottom, #021B79, #0575E6, #205E9B);
+  background: linear-gradient(to right, #021B79, #0575E6, transparent), url('/assets/contacto-world-map-dotted-png.png');
   height: 990px;
+}
+
+.login-box{
+    top:100px;
+}
+
+.card {
+  background-color: rgba(0,0,128,0.6);
+  box-shadow: 0 0 10px !important;
+  border: none !important;
 }
 
 .bmd-label {
   font-weight: 500;
-  color: #005f87;
+  color:white;
 }
 
 .fontIcons {
@@ -24,9 +34,7 @@
   padding: 7px;
 }
 
-.btn-login {
-  background-color: #1976D2;
-  border-color: #1976D2;
-  color: white;
+.btn-outline-primary {
   font-weight: bold;
+  color: white;
 }
